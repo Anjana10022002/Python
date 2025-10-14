@@ -12,8 +12,8 @@ riceTotal = ricePrice * riceBought
 sugarTotal = sugarPrice * sugarBought
 oilTotal = oilPrice * oilBought
 
-print("Total Price of ricce: ",riceTotal)
-print("Total price of sugar: ", sugarPrice)
+print("Total Price of rice: ",riceTotal)
+print("Total price of sugar: ", sugarTotal)
 print("Total price of oil: ",oilTotal)
 
 totalBill = riceTotal + sugarTotal + oilTotal
@@ -22,7 +22,7 @@ print("Total bill is: ", totalBill)
 print("Total bill in integer", int(totalBill))
 print("Total bill in string", str(totalBill))
 
-deliveryCharge = random.randomint(5,10)
+deliveryCharge = random.randint(5,10)
 finalBill = totalBill + deliveryCharge
 
 print("Delivery charge:", deliveryCharge)
