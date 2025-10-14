@@ -16,3 +16,6 @@ print("Total price of oil: ",oilTotal)
 
 totalBill = riceTotal + sugarTotal + oilTotal
 print("Total bill is: ", totalBill)
+
+print("Total bill in integer", int(totalBill))
+print("Total bill in string", str(totalBill))
