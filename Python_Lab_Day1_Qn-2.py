@@ -13,3 +13,6 @@ oilTotal = oilPrice * oilBought
 print("Total Price of ricce: ",riceTotal)
 print("Total price of sugar: ", sugarPrice)
 print("Total price of oil: ",oilTotal)
+
+totalBill = riceTotal + sugarTotal + oilTotal
+print("Total bill is: ", totalBill)
