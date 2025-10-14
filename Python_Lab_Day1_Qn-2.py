@@ -1,3 +1,5 @@
+import random
+
 ricePrice = 45
 sugarPrice = 40
 oilPrice = 130
@@ -19,3 +21,5 @@ print("Total bill is: ", totalBill)
 
 print("Total bill in integer", int(totalBill))
 print("Total bill in string", str(totalBill))
+
+deliveryCharge = totalBill + random.randomint(5,10)
