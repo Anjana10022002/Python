@@ -22,4 +22,8 @@ print("Total bill is: ", totalBill)
 print("Total bill in integer", int(totalBill))
 print("Total bill in string", str(totalBill))
 
-deliveryCharge = totalBill + random.randomint(5,10)
+deliveryCharge = random.randomint(5,10)
+finalBill = totalBill + deliveryCharge
+
+print("Delivery charge:", deliveryCharge)
+print("Total amount with delivery charge: ",finalBill)
