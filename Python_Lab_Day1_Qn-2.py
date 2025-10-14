@@ -6,3 +6,6 @@ riceBought = 3
 sugarBought = 2.5
 oilBought = 1.8
 
+riceTotal = ricePrice * riceBought
+sugarTotal = sugarPrice * sugarBought
+oilTotal = oilPrice * oilBought
