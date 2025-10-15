@@ -1,6 +1,10 @@
 receiptHeader = """XYZ Store
 Receipt"""
-items = '''Book Title: "Python Basics" – ₹450
-Book Title: "Data Science Intro" – ₹600'''
 print(receiptHeader)
-print(items)
+item1 = "Book Title: {a}\t - {b}".format(a = 'Python Basics', b = '₹450')
+print(item1)
+item2 = "Book Title: {a}\t - {b}".format(a = 'Data Science Intro', b = '₹600')
+print(item2)
+Total = 450 + 600
+totalAmount = "Total amount:\t\t\t - {}".format(Total)
+print(totalAmount)
