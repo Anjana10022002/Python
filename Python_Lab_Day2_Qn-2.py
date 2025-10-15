@@ -9,5 +9,8 @@ print("Short preview: ", python[0:50])
 print("Replacing 'Python' with 'PYTHON': ", python.replace("Python", "PYTHON"))
 print("Lowercase conversion: ", python.lower())
 print("Removal of white spaces: ", python.strip())
-print("Paragraph into words: ", python.split(","))
-print("")
+print("Paragraph into words: ", python.split())
+a = "course" in python
+print("Check for 'course': ", a)
+print("The course description is {} characters long and has {} words."
+      .format(len(python), len(python.split())))
