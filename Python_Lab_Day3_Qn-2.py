@@ -11,3 +11,4 @@ user_credits *= 2
 user_credits %= 150
 power_result = user_credits ** 2
 full_access = is_logged_in and is_subscribed
+is_true_login = (is_logged_in is True)
