@@ -10,3 +10,4 @@ user_credits -= 20
 user_credits *= 2
 user_credits %= 150
 power_result = user_credits ** 2
+full_access = is_logged_in and is_subscribed
