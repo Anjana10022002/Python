@@ -7,3 +7,5 @@ Data_Science.insert(1, "Louis")
 UIUX_Design.pop()
 new_Datascience = Data_Science.copy()
 del Data_Science
+print(new_Datascience)
+print(Data_Science)
