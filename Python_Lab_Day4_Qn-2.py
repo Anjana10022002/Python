@@ -10,4 +10,5 @@ del Data_Science
 print(Web_Development[:2])
 name_lengths = [len(name) for name in new_Datascience]
 print("Length of each name in copied Data Science list:", name_lengths)
-
+is_asha_present = any("Asha" in workshop for workshop in all_participants)
+print("Is 'Asha' present in any workshop list", is_asha_present)
