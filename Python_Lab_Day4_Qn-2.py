@@ -8,3 +8,6 @@ UIUX_Design.pop()
 new_Datascience = Data_Science.copy()
 del Data_Science
 print(Web_Development[:2])
+name_lengths = [len(name) for name in new_Datascience]
+print("Length of each name in copied Data Science list:", name_lengths)
+
