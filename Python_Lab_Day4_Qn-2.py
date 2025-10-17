@@ -12,3 +12,5 @@ name_lengths = [len(name) for name in new_Datascience]
 print("Length of each name in copied Data Science list:", name_lengths)
 is_asha_present = any("Asha" in workshop for workshop in all_participants)
 print("Is 'Asha' present in any workshop list", is_asha_present)
+first_participants = (Web_Development[0], new_Datascience[0], UIUX_Design[0])
+print("Tuple of first participants from each workshop:", first_participants)
