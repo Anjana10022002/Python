@@ -1,6 +1,7 @@
-Web_Development = ["Participant1", "Participant2", "Participant3"]
-Data_Science = ["Participant1", "Participant2", "Participant3"]
-UIUX_Design = ["Participant1", "Participant2", "Participant3"]
+Web_Development = ["Alex", "Ajay", "Ben"]
+Data_Science = ["Alan", "Max", "Tom"]
+UIUX_Design = ["David", "Jane", "Jose"]
 all_participants = Web_Development + Data_Science + UIUX_Design
-Web_Development.append("Participant4")
-print(Web_Development)
+Web_Development.append("Harry")
+Data_Science.insert(1, "Louis")
+print(Data_Science)
