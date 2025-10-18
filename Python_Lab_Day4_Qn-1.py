@@ -5,3 +5,4 @@ fruits.append("dragonfruit")
 vegetables.insert(2, "broccoli")
 beverages.pop()
 inventory = fruits + vegetables + beverages
+print("First two fruits:", fruits[:2])
