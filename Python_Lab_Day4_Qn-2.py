@@ -10,7 +10,9 @@ del Data_Science
 print(Web_Development[:2])
 name_lengths = [len(name) for name in new_Datascience]
 print("Length of each name in Data Science list:", name_lengths)
-is_asha_present = any("Asha" in workshop for workshop in all_participants)
-print("Is 'Asha' present in any workshop list", is_asha_present)
+if "Asha" in all_participants:
+    print("Yes, 'Asha' is in the workshop list")
+else:
+    print("No, 'Asha' is not in the workshop list")
 first_participants = (Web_Development[0], new_Datascience[0], UIUX_Design[0])
 print("First participants from each workshop:", first_participants)
