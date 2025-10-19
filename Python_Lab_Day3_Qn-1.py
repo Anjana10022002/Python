@@ -5,3 +5,4 @@ email = abcdef@gmail.com
 is_email_valid = "@" in email
 user_age = 17
 is_age_valid = user_age >= 18
+can_login_final = has_account and email_verified and is_email_valid and is_age_valid
