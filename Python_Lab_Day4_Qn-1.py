@@ -2,7 +2,7 @@ fruits = ["apple", "orange", "grape"]
 vegetables = ["carrot", "cabbage", "spinach"]
 beverages = ["water", "juice", "coffee"]
 fruits.append("dragonfruit")
-vegetables.insert(2, "broccoli")
+vegetables.insert(1, "broccoli")
 beverages.pop()
 inventory = fruits + vegetables + beverages
 print("First two fruits:", fruits[:2])
