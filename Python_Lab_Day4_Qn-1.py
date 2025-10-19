@@ -6,7 +6,7 @@ vegetables.insert(1, "broccoli")
 beverages.pop()
 inventory = fruits + vegetables + beverages
 print("First two fruits:", fruits[:2])
-print("First two vegetables:", vegetables[:-2])
+print("Lastitem in vegetables:", vegetables[-1])
 name_lengths = [len(name) for name in fruits]
 print("Length of each name in Fruits list:", name_lengths)
 if "water" in beverages:
