@@ -13,3 +13,5 @@ if "water" in beverages:
     print("Yes, 'water' is in the beverage list")
 else:
     print("No, 'water' is not in the beverage list")
+first_element = (fruits[0], vegetables[0], beverages[0])
+print("First elements of each section are: ", first_element)
