@@ -13,3 +13,5 @@ courses = {"Python" : len(Python),
            }
 for x, y in courses.items():
     print(f"Course:  {x}, Students: {y}")
+growth_courses = {x: y * 2 for x, y in courses.items()}
+print(growth_courses)
