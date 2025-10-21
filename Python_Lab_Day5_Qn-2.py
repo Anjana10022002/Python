@@ -12,8 +12,8 @@ course = {
     "Frontend" : len(frontend),
     "Backend" : len(backend)
     }
-for courseName, student in course.items():
-    print("The couse name and number of students in courses are:", courseName, student)
+for x, y in course.items():
+    print("The couse name and number of students in courses are:", x, y)
 dictComprehension = {
     "Fullstack" : len(frontend) + len(backend)
 }
