@@ -11,3 +11,5 @@ print("Total number of students in both courses: ", allStudents)
 courses = {"Python" : len(Python),
            "Data Science" : len(DataScience)
            }
+for x, y in courses.items():
+    print(f"Course:  {x}, Students: {y}")
