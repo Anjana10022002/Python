@@ -8,3 +8,6 @@ onlyPython = Python - DataScience
 print("Students enrolled only in Python: ", onlyPython)
 allStudents = Python.union(DataScience)
 print("Total number of students in both courses: ", allStudents)
+courses = {"Python" : len(Python),
+           "Data Science" : len(DataScience)
+           }
