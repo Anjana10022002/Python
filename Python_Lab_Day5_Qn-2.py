@@ -9,12 +9,12 @@ print("Students enrolled only in backend: ",onlyBackend)
 uniqueStudents = frontend.union(backend)
 print("Total number of unique students: ", len(uniqueStudents))
 course = {
-    "Frontend" : len(frontend),
-    "Backend" : len(backend)
-    }
+    "Frontend": len(frontend),
+    "Backend": len(backend)
+}
 for x, y in course.items():
-    print("The couse name and number of students in courses are:", x, y)
+    print("The course name and number of students in courses are:", x, y)
 dictComprehension = {
     "Fullstack" : len(frontend) + len(backend)
 }
-print("Fullstack couses: ", dictComprehension)
+print("Fullstack course: ",dictComprehension)
