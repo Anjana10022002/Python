@@ -14,7 +14,7 @@ course = {
 }
 for x, y in course.items():
     print("The course name and number of students in courses are:", x, y)
-dictComprehension = {
+fullStack = {
     "Fullstack" : len(frontend) + len(backend)
 }
-print("Fullstack course: ",dictComprehension)
+print("Fullstack course: ", fullStack)
