@@ -4,7 +4,10 @@ for x in attendance:
 		print("Full")
 	else:
 		print("Not Full")
-count = attendance.count(20)
+count = 0
+for x in attendance:
+	if x >=20:
+	    count = count + 1
 print("Number of days class was full:", count)
 totalAttendence = sum(attendance)
 print("Total attendance for all 5 days: ", totalAttendence)
