@@ -9,5 +9,5 @@ for x in attendance:
 	if x >=20:
 	    count = count + 1
 print("Number of days class was full:", count)
-totalAttendence = sum(attendance)
-print("Total attendance for all 5 days: ", totalAttendence)
+totalAttendance = sum(attendance)
+print("Total attendance for all 5 days: ", totalAttendance)
