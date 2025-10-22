@@ -6,3 +6,5 @@ for x in blog_views:
         print("Average")
     elif x <500:
         print("Low Traffic")
+Total_views = sum(blog_views)
+print("Total number of views:", Total_views)
