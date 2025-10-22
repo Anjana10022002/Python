@@ -13,3 +13,4 @@ for x in blog_views:
     if x > 1000:
         count = count + 1
 print("Count of trending posts: ", count)
+
