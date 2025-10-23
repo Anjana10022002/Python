@@ -17,4 +17,3 @@ show_item("Dog food")
 show_item("Cat toy")
 show_item("Bird cage")
 show_item("Fish tank")
-for x in inventory:
