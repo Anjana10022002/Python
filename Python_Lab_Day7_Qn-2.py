@@ -11,13 +11,16 @@ def count_items(items):
         return 0
     else:
         return 1 + count_items(items[1:])
-print("The count of inventory list is: ",count_items(inventory))
+# print("The count of inventory list is: ",count_items(inventory))
 show_item = lambda item: print(f"Item in Stock: {item}")
 def main():
     add_item("Dog food")
     add_item("Cat toy")
     add_item("Bird cage")
     add_item("Fish tank")
+
+for x in inventory:
+    show_item(x)
 
 
 
