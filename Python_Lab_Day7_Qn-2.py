@@ -18,11 +18,10 @@ def main():
     add_item("Cat toy")
     add_item("Bird cage")
     add_item("Fish tank")
-
-for x in inventory:
-    show_item(x)
-total = count_items(inventory)
-print("Total number of items in stock: ", total)
-
+    for x in inventory:
+        show_item(x)
+    total = count_items(inventory)
+    print("Total number of items in stock: ", total)
+main()
 
 
