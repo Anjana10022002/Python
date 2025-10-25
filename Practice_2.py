@@ -17,4 +17,8 @@ student = ["Alice", "Bob", "Charlie"]
 
 def add_name():
     student.append()
-    
+
+def remove_name():
+    student,pop()
+
+
