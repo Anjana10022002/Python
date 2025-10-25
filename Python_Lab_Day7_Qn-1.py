@@ -24,7 +24,7 @@ for x in initial_grocery:
     show_item(x)
 
 remove_last_Item()
-print("Gracery list after removing last item: ")
+print("Grocery list after removing last item: ")
 for x in initial_grocery:
     show_item(x)
 
