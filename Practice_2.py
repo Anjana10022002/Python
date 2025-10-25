@@ -15,10 +15,12 @@ Includes a recursive function count_total_letters(names) that returns the total 
 """
 student = ["Alice", "Bob", "Charlie"]
 
-def add_name():
+def add_student():
     student.append()
 
-def remove_name():
+def remove_last_student():
     student,pop()
+
+show_student= lambda x: print(f"Student:{x}")
 
 
