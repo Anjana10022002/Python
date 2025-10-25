@@ -43,4 +43,5 @@ print("Student list after removing last student name: ")
 for x in student:
     show_student(x)
 
-print
+count = count_total_letters(student)
+print("Count of characters: ",count)
