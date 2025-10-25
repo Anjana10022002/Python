@@ -18,3 +18,6 @@ fullStack = {
     "Fullstack" : len(frontend) + len(backend)
 }
 print("Fullstack course: ", fullStack)
+
+
+print
