@@ -22,4 +22,9 @@ print(f"Name: {savings_account._holderName}")
 print(f"Balance: {savings_account._balance}")
 print(f"Interest: {savings_account.calculate_interest()}")
 
-print()
+print("Current account: ")
+print(f"Name: {current_account._holderName}")
+print(f"Balance: {current_account._balance}")
+print(f"Interest: {current_account.calculate_interest()}")
+
+print(f"Total balance: ", current_account + savings_account)
