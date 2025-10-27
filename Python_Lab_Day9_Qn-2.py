@@ -21,3 +21,5 @@ print("Savings account: ")
 print(f"Name: {savings_account._holderName}")
 print(f"Balance: {savings_account._balance}")
 print(f"Interest: {savings_account.calculate_interest()}")
+
+print()
