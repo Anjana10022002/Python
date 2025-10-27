@@ -4,13 +4,16 @@ class Account:
         self._balance = balance
 
     def __add__ (self, other):
-        balanceSum = balanceSum + self._balance
-        return balanceSum
-
+        return self._balance + other._balance
 
 class SavingsAccount(Account):
-    def __init__(self, hName, balance):
-        super().__init__(hName, balance)
-        claculate_interest = balance * 0.02
-        return claculate_interest
+    def calculate_interest(self):
+        return self._balance * 0.05
+
+    
+
+savingsAccount1 = Account("Ravi", 10000)
+savingsAccount2 = Account("Anjali", 15000)
+
+print(savingsAccount1)
     
