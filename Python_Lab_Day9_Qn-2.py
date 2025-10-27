@@ -3,9 +3,14 @@ class Account:
         self._holderName = hName
         self._balance = balance
 
-    
+    def __add__ (self, other):
+        balanceSum = balanceSum + self._balance
+        return balanceSum
+
+
 class SavingsAccount(Account):
     def __init__(self, hName, balance):
         super().__init__(hName, balance)
         claculate_interest = balance * 0.02
         return claculate_interest
+    
