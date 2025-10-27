@@ -9,11 +9,13 @@ class Account:
 class SavingsAccount(Account):
     def calculate_interest(self):
         return self._balance * 0.05
-
     
+class CurrentAccount(Account):
+    def calculate_interest(self):
+        return self._balance * 0.02
+    
+savings_account1 = Account("Ravi", 10000)
+savings_account2 = Account("Anjali", 15000)
 
-savingsAccount1 = Account("Ravi", 10000)
-savingsAccount2 = Account("Anjali", 15000)
-
-print(savingsAccount1)
+print()
     
