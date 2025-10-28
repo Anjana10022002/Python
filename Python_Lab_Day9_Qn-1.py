@@ -33,3 +33,4 @@ class Bike(Vehicle):
 
 def calculate_rental(vehicles):
     return vehicle.rental_charges()
+
