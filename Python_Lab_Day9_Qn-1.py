@@ -23,12 +23,12 @@ class Bike(Vehicle):
     def __init__(self, vehicle_id, base_rate, bike_type):
         super().__init__(vehicle_id, base_rate)
         self._bike_type = bike_type
-        self.bike_type = bike_type
 
-    def rental_charges(self, bike_type, base_rate):
+    def rental_charges(self):
         daily_rental = self._base_rate * 0.5
         return daily_rental
-    
 
+    def display_details(self):
+        return f"Vehicle id: {self._vehicle_id}, base rate: {self._base_rate}, bike type: {self._bike_type}"
 
 
