@@ -32,5 +32,5 @@ class Bike(Vehicle):
         return f"Vehicle id: {self._vehicle_id}, base rate: {self._base_rate}, bike type: {self._bike_type}"
 
 def calculate_rental(vehicles):
-    return vehicle.rental_charges()
+    return Vehicle.rental_charges()
 
