@@ -28,3 +28,4 @@ print(f"Balance: {current_account._balance}")
 print(f"Interest: {current_account.calculate_interest()}")
 
 print(f"Total balance: ", current_account + savings_account)
+
