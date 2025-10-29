@@ -9,5 +9,5 @@ trips = [
 ]
 
 for x in trips:
-    dateObject = datetime.strptime(x["date"], "%d-%m-%y")
-    x["date"] = dateObject.strftime("%B %d %y")
+    d = datetime.datetime.strptime(x["date"], "%d-%m-%y")
+    x["date"] = d.strftime("%B %d %y")
