@@ -1,5 +1,6 @@
-def travel_data(place, city, comment):
+def travel_data(place, comment, date):
     data = {"place" : place,
-            "city" : city,
-            "comments" : comment}
+            "comments" : comment,
+            "date" : date
+            }
     return data 

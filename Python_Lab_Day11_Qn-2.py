@@ -1,5 +1,5 @@
 from tracker import travel_data
-import datetime
+from datetime import datetime
 import json
 
 records = [
@@ -13,6 +13,9 @@ for x in records:
     x["date"] = date_obj.strftime("%B %d, %Y")
 
 json_data = json.dumps(x, indent=4)
-print(json_data)
+print("JSON data: " ,json_data)
 
-pa
+parsed_json = jso.loads(json_data)
+print("Parsed JSON data: ")
+for x in parsed_json:
+    print(x)
