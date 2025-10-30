@@ -12,3 +12,7 @@ for x in records:
     date_obj = datetime.strptime(x["date"], "%d-%m-%y")
     x["date"] = date_obj.strftime("%B %d, %Y")
 
+json_data = json.dumps(x, indent=4)
+print(json_data)
+
+pa
