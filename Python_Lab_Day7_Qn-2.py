@@ -17,6 +17,6 @@ def main():
         show_item(x)
     total = count_items(inventory)
     print("Total number of items in stock: ", total)
-main()
+
 
 
