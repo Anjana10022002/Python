@@ -1,5 +1,5 @@
 from tripdata import trip_details
-from datetime import datetime
+import datetime
 import json
 
 trips = [
@@ -9,5 +9,8 @@ trips = [
 ]
 
 for x in trips:
-    d = datetime.datetime.strptime(x["date"], "%d-%m-%y")
-    x["date"] = d.strftime("%B %d %y")
+    d = datetime.datetime.strptime(x["date"], "%d-%m-%Y").date()
+    x["date"] = d.strftime("%B %d, %Y")
+
+json_trip_details = json.dumps(trips, indent=4)
+print(json_trip_details)
