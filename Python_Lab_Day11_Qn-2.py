@@ -3,9 +3,9 @@ from datetime import datetime
 import json
 
 records = [
-    travel_data("India", "Delhi", "discovering the beauty of India"),
-    travel_data("Italy", "Rome", "exploring the historic sites of Italy"),
-    travel_data("Japan", "Tokyo", "experiencing the culture of Japan")
+    travel_data("India", "discovering the beauty of India", "10-02-25"),
+    travel_data("Italy", "exploring the historic sites of Italy", "10-02-26"),
+    travel_data("Japan", "experiencing the culture of Japan", "10-02-27")
 ]
 
 for x in records:
@@ -15,7 +15,7 @@ for x in records:
 json_data = json.dumps(x, indent=4)
 print("JSON data: " ,json_data)
 
-parsed_json = jso.loads(json_data)
+parsed_json = json.loads(json_data)
 print("Parsed JSON data: ")
 for x in parsed_json:
     print(x)
