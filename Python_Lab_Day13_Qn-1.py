@@ -1,5 +1,5 @@
 import os
-userName = input("Enter your name: ")
+userName = input("Enter the name of new item: ")
 if os.path.exists("items.txt"):
     f = open("items.txt", "a")
     f.write("Condition for file exists.")
