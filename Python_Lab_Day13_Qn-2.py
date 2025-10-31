@@ -1,0 +1,1 @@
+count = int(input("Enter the number of students to add: "))
