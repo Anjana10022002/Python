@@ -7,5 +7,11 @@ if os.path.exists("items.txt"):
 else:
     with open("items.txt", "w") as f:
         f.write(item )
+
+print("THe list is:") 
+with open("item.txt", "r"):
+    for x in items:
+        print(x)  
+
         
 
