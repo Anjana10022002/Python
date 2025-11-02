@@ -14,4 +14,9 @@ with open("student.txt", mode) as f:
         student = input("Enter the name of student: ")
         f.write(student + "\n")
 
+print("Updated list:")
+with open("student.txt", "r") as f:
+    for x in f:
+        print(x.strip())
+
 
