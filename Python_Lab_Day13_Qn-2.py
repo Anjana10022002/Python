@@ -5,10 +5,9 @@ if os.path.exists("students.txt"):
         for x in f:
             print(x.strip())
     mode = "a"
-       
 else:
     print("No item in existing file")
-
+    mode = "w"
 with open("student.txt", mode) as f:
     for i in range(count):
         student = input("Enter the name of student: ")
