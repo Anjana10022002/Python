@@ -6,3 +6,5 @@ if os.path.exists("students.txt"):
         if existing_names:
             for x in existing_names:
                 print(x.strip())
+else:
+    
