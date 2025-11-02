@@ -9,3 +9,7 @@ if os.path.exists("students.txt"):
 else:
     print("No item in existing file")
 
+with open("student.txt", mode) as f:
+    for i in range(count):
+        
+
