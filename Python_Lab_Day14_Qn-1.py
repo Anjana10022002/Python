@@ -7,3 +7,4 @@ for x in list:
         remove_duplication.append(x)
 
 print("After removing duplicate names:" + str(remove_duplication))
+
