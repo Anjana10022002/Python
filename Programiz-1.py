@@ -51,7 +51,10 @@
 # print("The random number is: ", random_num)
 
 # Qn-8
-
+km = float(input("Enter the value in kilometers: "))
+const = 0.621
+miles = km * const
+print(f"{km} km is equal to {miles} mile")
 
 # Qn-9
 # celsius = int(input("Enter the celsius vaalue: "))
