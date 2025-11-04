@@ -50,4 +50,10 @@
 # random_num = random.randint(10,100)
 # print("The random number is: ", random_num)
 
-# 
+# Qn-8
+
+
+# Qn-9
+# celsius = int(input("Enter the celsius vaalue: "))
+# fahren = (celsius * 1.8) + 32
+# print(f"Fahrenheit value of {celsius} degree celsius is {fahren}")
