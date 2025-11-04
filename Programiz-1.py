@@ -51,12 +51,49 @@
 # print("The random number is: ", random_num)
 
 # Qn-8
-km = float(input("Enter the value in kilometers: "))
-const = 0.621
-miles = km * const
-print(f"{km} km is equal to {miles} mile")
+# km = float(input("Enter the value in kilometers: "))
+# const = 0.621
+# miles = km * const
+# print(f"{km} km is equal to {miles} mile")
 
 # Qn-9
 # celsius = int(input("Enter the celsius vaalue: "))
 # fahren = (celsius * 1.8) + 32
 # print(f"Fahrenheit value of {celsius} degree celsius is {fahren}")
+
+# qn-10
+# a = int(input("Enter the number: "))
+# if a > 0:
+#     print(f"{a} is positive")
+# elif a < 0:
+#     print(f"{a} is negative")
+# else:
+#     print(f"{a} is zero")
+
+# Qn-11
+# num = int(input("Enter the number: "))
+# if num % 2 == 0:
+#     print(f"{num} is even")
+# else:
+#     print(f"{num} is odd")
+
+# Qn-12
+# year = int(input("Enter the year: "))
+# if (year % 400 == 0) and (year % 100 ==0):
+#     print(f"{year} is a leap year")
+# elif(year % 4 == 0) and (year % 100 != 0):
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+# Qn-13
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+# c = int(input("Enter the third number: "))
+# if (a > b) and (a > c):
+#     print(f"{a} is the largest number")
+# elif (b > a) and (b > c):
+#     print(f"{b} is the largest number")
+# else:
+#     print(f"{c} is the largest number")
+
