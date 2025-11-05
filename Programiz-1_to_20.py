@@ -123,6 +123,11 @@
 #             print(x)
 
 # Qn-16
+def factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return 
 
 # Qn-17
 
