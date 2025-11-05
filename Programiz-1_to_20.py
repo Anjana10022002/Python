@@ -128,9 +128,7 @@
 
 # Qn-18
 
-# Qn-19
-
-# Qn-20
+# Qn-19  Python Program to Check Armstrong Number
 # num = int(input("Enter the number: "))
 # order = len(str(num))
 # sum = 0
@@ -143,6 +141,20 @@
 #     print("The number is Armstrong")
 # else:
 #     print("The number is not Armstrong")
+
+# Qn-20  Python Program to Find Armstrong Number in an Interval
+# lower = int(input("Enter the lower limit: "))
+# upper = int(input("Enter the upper limit: "))
+# for num in range(lower, upper + 1):
+#     order = len(str(num))
+#     sum = 0
+#     temp = num
+#     while temp > 0:
+#         digit = temp % 10
+#         sum += digit ** order
+#         temp //= 10
+#     if num == sum:
+#         print(num)
 
 
 

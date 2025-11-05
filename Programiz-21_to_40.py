@@ -1,15 +1,17 @@
-# Qn-21
-lower = int(input("Enter the lower limit: "))
-upper = int(input("Enter the upper limit: "))
-for num in range(lower, upper + 1):
-    order = len(str(num))
-    sum = 0
-    temp = num
-    while temp > 0:
-        digit = temp % 10
-        sum += digit ** order
-        temp //= 10
-    if num == sum:
-        print(num)
+# Qn-21 Python Program to Find the Sum of Natural Numbers
+# num = int(input("Enter the number: "))
+# if num < 0:
+#     print("Enter a positive number.")
+# else:
+#     # sum = (num*(num+1))/2
+#     sum = 0
+#     while (num > 0):
+#         sum = sum + num
+#         num = num -1
+#     print(f"The sum is {sum}")
 
-# Qn-22
+# Qn-22 Python Program to Display Powers of 2 Using Anonymous Function 
+terms = int(input("Enter the terms: "))
+powers = list(map(lambda x: 2 ** x, range(terms)))
+for i in range(terms):
+    print(f"2 raised to {i} is {powers[i]}")
