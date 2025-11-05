@@ -122,15 +122,26 @@
 #         else:
 #             print(x)
 
-# Qn-16
-def factorial(x):
-    if x == 1 or x == 0:
-        return 1
-    else:
-        return (x * factorial(x - 1))
+# Qn-16 Python Program to Find the Factorial of a Number
+# def factorial(x):
+#     if x == 1 or x == 0:
+#         return 1
+#     else:
+#         return (x * factorial(x - 1))
+# num = int(input("Enter the number: "))
+# result = factorial(num)
+# print(f"The factorial of {num} is {result}")
+
 num = int(input("Enter the number: "))
-result = factorial(num)
-print(f"The factorial of {num} is {result}")
+factorial = 1
+if num < 0:
+    print("Factorial doesn't exist for negative numbers")
+elif num == 0:
+    print("Factorial of 0 is 1")
+else:
+    for i in range (1, num + 1):
+        factorial = factorial * i
+    print(f"Th efactorial of {num} is {factorial}")
 
 
 # Qn-17
