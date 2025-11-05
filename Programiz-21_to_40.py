@@ -11,7 +11,14 @@
 #     print(f"The sum is {sum}")
 
 # Qn-22 Python Program to Display Powers of 2 Using Anonymous Function 
-terms = int(input("Enter the terms: "))
-powers = list(map(lambda x: 2 ** x, range(terms)))
-for i in range(terms):
-    print(f"2 raised to {i} is {powers[i]}")
+# terms = int(input("Enter the terms: "))
+# powers = list(map(lambda x: 2 ** x, range(terms)))
+# for i in range(terms):
+#     print(f"2 raised to {i} is {powers[i]}")
+
+# Qn-23 Python Program to Find Numbers Divisible by Another Number
+list_items = int(input("Enter the list of numbers: "))
+my_list = list(list_items)
+for i in range(list_items):
+    result  = list(filter(lambda x:(x % i == 0), my_list))
+print(result)
