@@ -124,10 +124,14 @@
 
 # Qn-16
 def factorial(x):
-    if x == 1:
+    if x == 1 or x == 0:
         return 1
     else:
-        return 
+        return (x * factorial(x - 1))
+num = int(input("Enter the number: "))
+result = factorial(num)
+print(f"The factorial of {num} is {result}")
+
 
 # Qn-17
 
