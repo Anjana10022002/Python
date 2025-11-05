@@ -98,16 +98,28 @@
 #     print(f"{c} is the largest number")
 
 # Qn-14
-num = int(input("Enter the number: "))
-if num == 0 or num == 1:
-    print(f"{num} is not a prime number.")
-elif num > 1:
-    for i in range(2, num):
-        if(num % i) == 0:
-            print(f"{num} is a prime number.")
-            break
-        else:
-            print(f"{num} is a prime number.")
-else:
-    print(f"{num} is not a prime number.")
+# num = int(input("Enter the number: "))
+# if num == 0 or num == 1:
+#     print(f"{num} is not a prime number.")
+# elif num > 1:
+#     for i in range(2, num):
+#         if(num % i) == 0:
+#             print(f"{num} is a prime number.")
+#             break
+#         else:
+#             print(f"{num} is a prime number.")
+# else:
+#     print(f"{num} is not a prime number.")
 
+# Qn-15
+# upper = int(input("Enter the upper limit: "))
+# lower = int(input("Enter the lower limit: "))
+# for x in range (lower, upper + 1):
+#     if x > 1:
+#         for i in range(2, x):
+#             if (x % i) == 0:
+#                 break
+#         else:
+#             print(x)
+
+# Qn=16
