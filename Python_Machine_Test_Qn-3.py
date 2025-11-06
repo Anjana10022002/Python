@@ -1,10 +1,12 @@
-array = [{"id":1, "name":"rajesh"},
-         {"id":2, "name":"rahul"}, 
-         {"id":3, "name":"sruthi"}]
+array = [{"id":1, "name":"Rajesh"},
+         {"id":2, "name":"Rahul"}, 
+         {"id":3, "name":"Sruthi"}]
 
 num = int(input("Enter a ID number: "))
+
 for x in array:
-    if num == array.id:
-        print(f"Student name is: {array["name"]}")
-    else:
-        print("Student ID not exist")
+    if num == x["id"]:
+        print(f"Student name is: {x["name"]}")
+        break
+else:
+    print("Student ID not exist")
