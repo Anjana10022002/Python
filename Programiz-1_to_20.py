@@ -132,21 +132,22 @@
 # result = factorial(num)
 # print(f"The factorial of {num} is {result}")
 
-num = int(input("Enter the number: "))
-factorial = 1
-if num < 0:
-    print("Factorial doesn't exist for negative numbers")
-elif num == 0:
-    print("Factorial of 0 is 1")
-else:
-    for i in range (1, num + 1):
-        factorial = factorial * i
-    print(f"Th efactorial of {num} is {factorial}")
+# num = int(input("Enter the number: "))
+# factorial = 1
+# if num < 0:
+#     print("Factorial doesn't exist for negative numbers")
+# elif num == 0:
+#     print("Factorial of 0 is 1")
+# else:
+#     for i in range (1, num + 1):
+#         factorial = factorial * i
+#     print(f"Th efactorial of {num} is {factorial}")
+
+# Qn-17 Python Program to Display the multiplication Table
 
 
-# Qn-17
+# Qn-18 Python Program to Print the Fibonacci sequence
 
-# Qn-18
 
 # Qn-19  Python Program to Check Armstrong Number
 # num = int(input("Enter the number: "))
