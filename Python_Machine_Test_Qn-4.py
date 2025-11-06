@@ -6,11 +6,17 @@ class Calculator:
     def multiplication(self, num1, num2):
         return num1 * num2
     def division(self, num1, num2):
-        return num1 / num2
+        if num2 == 0:
+            print("Zero division error")
+        else:
+            return num1 / num2
+    
 cal_obj = Calculator()
+
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-operation = input("Enter the operation(+, -, *, /): ")
+operation = input("Enter the operation (+, -, *, /): ")
+
 if operation == "+":
     result = cal_obj.addition(num1, num2)
     print("Result is: ", result)
