@@ -24,4 +24,4 @@ class Consultant(Employee, PartTime):
         PartTime.__init__(self, name, age, working_hours, show_details)
         self.project_name = project_name
     def __str__(self):
-        return Employee.__str__(self) + f"\nName: {self.name}\nAge:{self.age}\nWorking Hours: {self.working_hours}"
+        return Employee.__str__(self) + f"\nName: {self.name}\nAge:{self.age}\nEmployee ID: {self.employee_id}\nWorking Hours: {self.working_hours}"
