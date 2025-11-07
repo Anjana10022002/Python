@@ -9,3 +9,6 @@ class Employee(Person):
         super().__init__(name, age)
         self.employee_id = employee_id
         self.show_details = show_details
+    def __str__(self):
+        return super().__str__() + f"\nEmployee Name: {self.name}\nAge : {self.age}\nEmployee ID: {self.employee_id}"
+    
