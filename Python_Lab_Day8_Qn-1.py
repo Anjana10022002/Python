@@ -11,4 +11,10 @@ class Employee(Person):
         self.show_details = show_details
     def __str__(self):
         return super().__str__() + f"\nEmployee Name: {self.name}\nAge : {self.age}\nEmployee ID: {self.employee_id}"
-    
+class PartTime(Person):
+    def __init__(self, name, age, working_hours, show_details):
+        super().__init__(name, age)
+        self.working_hours = working_hours
+        self.show_details = show_details
+    def __str__(self):
+        return super().__str__() + f"\nEmployee Name: {self.name}\nAge : {self.age}\nWorking Hours: {self.working_hours}"
