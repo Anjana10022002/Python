@@ -158,10 +158,15 @@ count = 0
 if terms <= 1:
     print("Enter a positive number")
 elif terms == 1:
-    print(f"Fibonacci sequence of {terms} terms is: " {n1})
+    print(f"Fibonacci sequence of {terms} terms is: {n1}")
 else:
-    
-
+    print(f"Fibonacci sequence of {terms} terms is: ")
+    while count < terms:
+        print(n1)
+        seq = n1 + n2
+        ni = n2
+        n2 = seq
+        count += 1
 
 
 # Qn-19  Python Program to Check Armstrong Number
