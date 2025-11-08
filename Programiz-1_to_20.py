@@ -144,6 +144,12 @@
 #     print(f"Th efactorial of {num} is {factorial}")
 
 # Qn-17 Python Program to Display the multiplication Table
+num = int(input("Enter the number: "))
+print(f"Multipllication table of {num}:")
+for i in range(1, num+1):
+    multiplication = num * 1
+    print(f"{i} X {num} = {multiplication}")
+    
 
 
 # Qn-18 Python Program to Print the Fibonacci sequence
