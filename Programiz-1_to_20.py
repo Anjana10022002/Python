@@ -168,7 +168,6 @@
 #         n2 = seq
 #         count += 1
 
-
 # Qn-19  Python Program to Check Armstrong Number
 # num = int(input("Enter the number: "))
 # order = len(str(num))
