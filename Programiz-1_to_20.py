@@ -155,7 +155,7 @@ terms = int(input("Enter the number of terms: "))
 n1 = 0
 n2 = 1
 count = 0
-if terms <= 1:
+if terms <= 0:
     print("Enter a positive number")
 elif terms == 1:
     print(f"Fibonacci sequence of {terms} terms is: {n1}")
@@ -164,7 +164,7 @@ else:
     while count < terms:
         print(n1)
         seq = n1 + n2
-        ni = n2
+        n1 = n2
         n2 = seq
         count += 1
 
