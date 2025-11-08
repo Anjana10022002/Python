@@ -144,15 +144,24 @@
 #     print(f"Th efactorial of {num} is {factorial}")
 
 # Qn-17 Python Program to Display the multiplication Table
-num = int(input("Enter the number: "))
-print(f"Multipllication table of {num}:")
-for i in range(1, num+1):
-    multiplication = num * 1
-    print(f"{i} X {num} = {multiplication}")
-    
-
+# num = int(input("Enter the number: "))
+# print(f"Multipllication table of {num}:")
+# for i in range(1, num+1):
+#     multiplication = num * 1
+#     print(f"{i} X {num} = {multiplication}")
 
 # Qn-18 Python Program to Print the Fibonacci sequence
+terms = int(input("Enter the number of terms: "))
+n1 = 0
+n2 = 1
+count = 0
+if terms <= 1:
+    print("Enter a positive number")
+elif terms == 1:
+    print(f"Fibonacci sequence of {terms} terms is: " {n1})
+else:
+    
+
 
 
 # Qn-19  Python Program to Check Armstrong Number
