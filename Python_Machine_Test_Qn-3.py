@@ -7,6 +7,5 @@ num = int(input("Enter the ID number: "))
 for x in array:
     if num == x["id"]:
         print(f"Student name is: {x["name"]}")
-        
 else:
     print("Student ID not exist")
