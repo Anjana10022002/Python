@@ -17,8 +17,5 @@
 #     print(f"2 raised to {i} is {powers[i]}")
 
 # Qn-23 Python Program to Find Numbers Divisible by Another Number
-list_items = input("Enter the list of numbers: ")
-my_list = [int(x) for x in list_items.split()]
-for i in my_list:
-    result  = list(filter(lambda x:(x % i == 0), my_list))
-print(result)
+
+
