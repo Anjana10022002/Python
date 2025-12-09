@@ -20,7 +20,9 @@
 
 
 #Qn-24 Python Program to Convert Decimal to Binary, Octal and Hexadecimal
-num = int(input("Enter the number: "))
-print(f"The binary value of {num} is {bin(num)}")
-print(f"The octal value of {num} is {oct(num)}")                
-print(f"The hexadecimal value of {num} is {hex(num)}")
+# num = int(input("Enter the number: "))
+# print(f"The binary value of {num} is {bin(num)}")
+# print(f"The octal value of {num} is {oct(num)}")                
+# print(f"The hexadecimal value of {num} is {hex(num)}")
+
+# 
