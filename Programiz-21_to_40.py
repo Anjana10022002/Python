@@ -17,3 +17,7 @@
 #     print(f"2 raised to {i} is {powers[i]}")
 
 # Qn-23 Python Program to Find Numbers Divisible by Another Number
+
+
+#Qn-24 Python Program to Convert Decimal to Binary, Octal and Hexadecimal
+num = int(input("Enter the number: "))
