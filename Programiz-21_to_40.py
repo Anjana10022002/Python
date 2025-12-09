@@ -17,5 +17,3 @@
 #     print(f"2 raised to {i} is {powers[i]}")
 
 # Qn-23 Python Program to Find Numbers Divisible by Another Number
-
-
