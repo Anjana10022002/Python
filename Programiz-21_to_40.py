@@ -27,4 +27,8 @@
 
 # Qn-25 Python Program to Find ASCII Value of a Character
 # char = input("Enter a character: ")
-# print(f"The ASCII value of '{char}' is {ord(char)}")    
+# print(f"The ASCII value of '{char}' is {ord(char)}")   
+
+# Qn-26 Python Program to Find HCF or GCD
+def hcf(x,y):
+    if x > y:
